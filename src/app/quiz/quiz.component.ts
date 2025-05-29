@@ -97,7 +97,28 @@ export class QuizComponent {
       question: 'What is the boiling point of water?',
       options: ['90°C', '50°C', '100°C', '150°C'],
       answer: '100°C'
+    },
+    {
+      question: 'Who wrote "To Kill a Mockingbird"?',
+      options: ['Harper Lee', 'Mark Twain', 'Ernest Hemingway', 'F. Scott Fitzgerald'],
+      answer: 'Harper Lee'
+    },
+    {
+      question: 'What is the largest planet in our solar system?',
+      options: ['Earth', 'Mars', 'Jupiter', 'Saturn'],
+      answer: 'Jupiter'
+    },
+    {
+      question: 'What is the chemical symbol for gold?',
+      options: ['Au', 'Ag', 'Pb', 'Fe'],
+      answer: 'Au'
+    },
+    {
+      question: 'What is the main ingredient in guacamole?',
+      options: ['Tomato', 'Avocado', 'Pepper', 'Onion'],
+      answer: 'Avocado'
     }
+
   ];
 
   currentIndex = 0;

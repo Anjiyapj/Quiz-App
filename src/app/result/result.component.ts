@@ -27,7 +27,7 @@ import { RouterModule } from '@angular/router';
 })
 export class ResultComponent implements OnInit {
   score: number = 0;
-  total: number = 3;
+  total: number = 7;
 
   ngOnInit(): void {
     const storedScore = localStorage.getItem('quizScore');
